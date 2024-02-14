@@ -12,6 +12,11 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Arrays;
 
+/**
+ * Просто используем рестТемплейт
+ * гайд - https://www.javaguides.net/2019/06/spring-resttemplate-get-post-put-and-delete-example.html
+ */
+
 @SpringBootApplication
 public class SpringRestTemirkhanovApplication {
     private static final String API_USERS = "http://94.198.50.185:7081/api/users";
